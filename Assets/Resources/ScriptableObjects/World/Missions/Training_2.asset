@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf2a07acdbdfdf44f8f68444b74d4c99, type: 3}
+  m_Name: Training_2
+  m_EditorClassIdentifier: 
+  name: "\u0421\u043E\u0441\u0435\u0434\u043D\u0438\u0439 \u0433\u043E\u0440\u043E\u0434"
+  description: "\u0417\u0430\u0445\u0432\u0430\u0442\u0438\u0442\u044C \u043D\u0435\u0439\u0442\u0440\u0430\u043B\u044C\u043D\u043E\u0435
+    \u043F\u043E\u0441\u0435\u043B\u0435\u043D\u0438\u0435"
+  imageTerritory: {fileID: 0}
+  ID: 1
+  hero:
+    Name: 1
+    extraCards: []
+    inHandStartCards: []
+    startAutoPrefab: {fileID: 0}
+    timeStartAutoPrefab: 0
+  typeTerrain: 2
+  levelDifficultyMap: 0
+  progress: 0
+  reward:
+    resources:
+    - Name: 3
+      count: 70
+      e10: 0
+      PosibleNegative: 1
+    - Name: 4
+      count: 15
+      e10: 0
+      PosibleNegative: 1
+  beforeOpenDialogue:
+    russianSpeechs: []
+    englishSpeechs: []
+  afterFinishDialogue:
+    russianSpeechs: []
+    englishSpeechs: []

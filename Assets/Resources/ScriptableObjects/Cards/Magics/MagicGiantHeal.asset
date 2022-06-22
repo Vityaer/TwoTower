@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb15911ad48bb9479ddaa22017b4aca, type: 3}
+  m_Name: MagicGiantHeal
+  m_EditorClassIdentifier: 
+  name: 
+  ID: 2003
+  costResource:
+    resources:
+    - Name: 1
+      count: 18
+      e10: 0
+  description: "\u0421\u043E\u0437\u0434\u0430\u0451\u0442 \u0431\u043E\u043B\u044C\u0448\u043E\u0435
+    \u043B\u0435\u0447\u0435\u043D\u0438\u0435. \u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442
+    \u0435\u0433\u043E \u0432 \u0431\u0430\u0440\u0430\u043A\u0438."
+  actions:
+  - whom: 0
+    typeAction: 10
+    prefab: {fileID: 4418498261781946652, guid: 7e2cbff33441f3348aa1e497cd348c82, type: 3}
+    amount: 0
+    res:
+      resources: []
+  - whom: 0
+    typeAction: 9
+    prefab: {fileID: 4418498261781946652, guid: 7e2cbff33441f3348aa1e497cd348c82, type: 3}
+    amount: 0
+    res:
+      resources: []

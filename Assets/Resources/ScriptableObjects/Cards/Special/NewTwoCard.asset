@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb15911ad48bb9479ddaa22017b4aca, type: 3}
+  m_Name: NewTwoCard
+  m_EditorClassIdentifier: 
+  name: "\u0414\u0432\u0435 \u043A\u0430\u0440\u0442\u044B"
+  ID: 5007
+  costResource:
+    resources:
+    - Name: 1
+      count: 9
+      e10: 0
+      PosibleNegative: 0
+  description: "\u041F\u043E\u043B\u0443\u0447\u0430\u0435\u043C 2 \u043D\u043E\u0432\u044B\u0435
+    \u043A\u0430\u0440\u0442\u044B"
+  actions:
+  - whom: 0
+    typeAction: 8
+    prefab: {fileID: 0}
+    amount: 2
+    res:
+      resources: []

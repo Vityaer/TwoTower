@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb15911ad48bb9479ddaa22017b4aca, type: 3}
+  m_Name: SimpleArcher
+  m_EditorClassIdentifier: 
+  name: 
+  ID: 1005
+  costResource:
+    resources:
+    - Name: 0
+      count: 7
+      e10: 0
+  description: "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u043B\u0443\u0447\u043D\u0438\u043A,
+    \u043E\u0431\u044B\u0447\u043D\u043E \u0442\u0430\u043A\u0438\u0435 \u043E\u0445\u0440\u0430\u043D\u044F\u044E\u0442
+    \u043D\u0435 \u043E\u0441\u043E\u0431\u043E \u043D\u0443\u0436\u043D\u0443\u044E
+    \u0431\u0430\u0448\u043D\u044E."
+  actions:
+  - whom: 0
+    typeAction: 0
+    prefab: {fileID: 2029838014998685408, guid: 7b8e5a87bf187d646acce4a6cc22da10, type: 3}
+    amount: 0
+    res:
+      resources: []
+  - whom: 0
+    typeAction: 9
+    prefab: {fileID: 2029838014998685408, guid: 7b8e5a87bf187d646acce4a6cc22da10, type: 3}
+    amount: 1
+    res:
+      resources: []
+  - whom: 0
+    typeAction: 11
+    prefab: {fileID: 2029838014998685408, guid: 7b8e5a87bf187d646acce4a6cc22da10, type: 3}
+    amount: 0
+    res:
+      resources: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb15911ad48bb9479ddaa22017b4aca, type: 3}
+  m_Name: SummonHiler
+  m_EditorClassIdentifier: 
+  name: 
+  ID: 1008
+  costResource:
+    resources:
+    - Name: 0
+      count: 15
+      e10: 0
+  description: "\u041F\u0440\u0438\u0437\u044B\u0432\u0430\u0435\u0442 \u043C\u0435\u0434\u0438\u043A\u0430.
+    \u0414\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442 \u0435\u0433\u043E \u0432
+    \u0431\u0430\u0440\u0430\u043A\u0438."
+  actions:
+  - whom: 0
+    typeAction: 0
+    prefab: {fileID: 1814070425053357827, guid: 8bc578e84a000b44098180f66a924e37, type: 3}
+    amount: 0
+    res:
+      resources: []
+  - whom: 0
+    typeAction: 9
+    prefab: {fileID: 1814070425053357827, guid: 8bc578e84a000b44098180f66a924e37, type: 3}
+    amount: 0
+    res:
+      resources: []
